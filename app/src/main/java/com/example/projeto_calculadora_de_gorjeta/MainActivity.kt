@@ -50,39 +50,10 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
-//@Composable
-//fun TextFieldValue(title: String, modifier: Modifier = Modifier): String {
-//    var placeholder by remember { mutableStateOf("") }
-//    Column (
-////        modifier = modifier,
-////        horizontalAlignment = Alignment.CenterHorizontally,
-////        verticalArrangement = Arrangement.Center
-//    ){
-//        Text(
-//            text = title,
-//            modifier = modifier.padding(bottom = 10.dp),
-//            fontWeight = FontWeight.Bold,
-//            fontSize = 17.sp,)
-//        TextField(value = placeholder, onValueChange = {
-//            placeholder = it
-//        },
-//            singleLine = true,
-//        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
-//            modifier = Modifier.padding(bottom = 10.dp),
-//            label = { Text(text = stringResource(R.string.text_field_placeholder)) }
-//        )
-//    }
-//
-//    return placeholder
-//}
-
 @Composable
 fun TextField(title: String, label: Int, icon: Int, modifier: Modifier = Modifier): String {
     var value by remember { mutableStateOf("") }
-    Column(
-
-    ) {
+    Column{
         Text(
             text = title,
             modifier = modifier.padding(bottom = 10.dp),
