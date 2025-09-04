@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">projeto-calculadora-de-gorjeta</string>
+    <string name="text_field_text">calculador de gorjeta</string>
+    <string name="text_field_placeholder">R$</string>
+    <string name="result_text">Valor da Gorjeta: %s</string>
+    <string name="text_field_porcent_placeholder">Porcentagem da gorjeta:</string>
+    <string name="text_field_porcent_label">porcentagem</string>
+    <string name="arounded_key_text">Aredondar gorjeta</string>
+</resources>
